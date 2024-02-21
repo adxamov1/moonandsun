@@ -8,13 +8,13 @@ function fn(){
         elElement.classList.add('light') 
         elElement.classList.remove('dark')  
         elWrapper.style.background = '#fff'
-        elP.style.background = 'red'
+        elP.style.color = '#000'
 
     }else{
         elElement.classList.add('dark')
         elElement.classList.remove('light')
         elWrapper.style.background = '#000'
-        elP.style.background = '#fff'
+        elP.style.color = 'white'
 
     }
     mode=!mode
