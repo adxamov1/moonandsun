@@ -1,0 +1,32 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 150px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid red;
+    background-color: crimson;
+}
+.element{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all ease 0.3s;
+}
+.dark{
+    background-image: url(../img/moon.png);
+    background-color: rgb(2, 230,255);
+    transform: translate(0px);
+}
+.light{
+    background-image: url(../img/sun.png);
+    background-color: rgb(0, 0, 0);
+    transform: translate(90px);
+}
